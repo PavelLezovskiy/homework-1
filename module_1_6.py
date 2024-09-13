@@ -13,5 +13,5 @@ my_set = {1, 2, 3, True, 'Apple'}
 print(my_set)
 print(my_set.add(5))
 print(my_set.add('Logo'))
-print(my_set.remove(1))
-print(my_set)
+a = my_set.pop()
+print(a)
